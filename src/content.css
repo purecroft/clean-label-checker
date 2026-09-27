@@ -1,0 +1,15 @@
+/* Clean Label Checker highlights (Pure Croft) */
+mark.clc-mark {
+  background: rgba(255, 214, 102, 0.55) !important;
+  color: inherit !important;
+  border-bottom: 2px solid #d49a00 !important;
+  border-radius: 2px !important;
+  padding: 0 1px !important;
+  cursor: help !important;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+mark.clc-mark.clc-cat-sugar, mark.clc-mark.clc-cat-sweetener { background: rgba(255, 179, 186, 0.55) !important; border-bottom-color: #d9534f !important; }
+mark.clc-mark.clc-cat-colour, mark.clc-mark.clc-cat-enumber { background: rgba(186, 200, 255, 0.55) !important; border-bottom-color: #4a63d9 !important; }
+mark.clc-mark.clc-cat-mycelium { background: rgba(200, 230, 170, 0.6) !important; border-bottom-color: #5a8f29 !important; }
+mark.clc-mark.clc-flash { outline: 3px solid #2e7d32 !important; outline-offset: 2px !important; transition: outline 0.2s; }

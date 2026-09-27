@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clean Label Checker</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header>
+    <img src="../icons/icon-32.png" width="24" height="24" alt="">
+    <h1>Clean Label Checker</h1>
+    <label class="switch" title="On/Off">
+      <input type="checkbox" id="enabled">
+      <span class="slider"></span>
+    </label>
+  </header>
+
+  <section id="summary">
+    <div id="count" class="count">–</div>
+    <div id="countLabel" class="muted" data-i18n="countLabel"></div>
+    <div id="status" class="muted small"></div>
+  </section>
+
+  <section class="controls">
+    <label class="row"><input type="checkbox" id="pauseSite"> <span data-i18n="pauseSite"></span> <b id="host"></b></label>
+    <label class="row"><span data-i18n="modeLabel"></span>
+      <select id="mode">
+        <option value="ingredients" data-i18n="modeIngredients"></option>
+        <option value="page" data-i18n="modePage"></option>
+      </select>
+    </label>
+    <button id="rescan" type="button" data-i18n="rescan"></button>
+  </section>
+
+  <ul id="list"></ul>
+
+  <details id="allowlistBox">
+    <summary data-i18n="allowlistTitle"></summary>
+    <p class="muted small" data-i18n="allowlistHelp"></p>
+    <ul id="allowlist"></ul>
+  </details>
+
+  <p class="muted small disclaimer" data-i18n="disclaimer"></p>
+
+  <footer>
+    <a href="https://purecroft.fr" target="_blank" rel="noopener noreferrer">Made by Pure Croft - https://purecroft.fr</a>
+  </footer>
+  <script src="../src/data.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

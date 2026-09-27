@@ -1,0 +1,67 @@
+{
+  "extName": {
+    "message": "Clean Label Checker"
+  },
+  "extDescription": {
+    "message": "Surligne charges, excipients et additifs courants dans les listes d'ingrédients (FR/EN, numéros E). Hors ligne, zéro collecte."
+  },
+  "countLabel": {
+    "message": "ingrédients signalés sur cette page"
+  },
+  "occurrences": {
+    "message": "$COUNT$ surlignage(s)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pauseSite": {
+    "message": "Mettre en pause sur"
+  },
+  "modeLabel": {
+    "message": "Analyser :"
+  },
+  "modeIngredients": {
+    "message": "Listes d'ingrédients uniquement"
+  },
+  "modePage": {
+    "message": "Toute la page visible"
+  },
+  "rescan": {
+    "message": "Relancer l'analyse"
+  },
+  "unavailable": {
+    "message": "Indisponible sur cette page. Rechargez l'onglet ou vérifiez que l'extension a accès à ce site."
+  },
+  "pausedHere": {
+    "message": "En pause sur ce site (liste d'exceptions)."
+  },
+  "disabled": {
+    "message": "Le vérificateur est désactivé."
+  },
+  "noneIngredients": {
+    "message": "Aucun ingrédient signalé dans les listes détectées. Essayez « Toute la page visible »."
+  },
+  "none": {
+    "message": "Aucun ingrédient signalé."
+  },
+  "clickToScroll": {
+    "message": "Cliquer pour aller à l'occurrence suivante"
+  },
+  "allowlistTitle": {
+    "message": "Sites en liste d'exceptions"
+  },
+  "allowlistHelp": {
+    "message": "Le vérificateur ne s'exécute pas sur ces sites."
+  },
+  "allowlistEmpty": {
+    "message": "Aucun site en exception."
+  },
+  "remove": {
+    "message": "Retirer"
+  },
+  "disclaimer": {
+    "message": "Les descriptions sont des informations générales et factuelles sur la nature de chaque ingrédient. Elles ne constituent pas un avis médical ou de santé."
+  }
+}

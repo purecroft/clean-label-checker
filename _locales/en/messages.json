@@ -1,0 +1,67 @@
+{
+  "extName": {
+    "message": "Clean Label Checker"
+  },
+  "extDescription": {
+    "message": "Highlights common fillers, excipients and additives in ingredient lists (EN/FR names + E-numbers). Works offline, collects no data."
+  },
+  "countLabel": {
+    "message": "flagged ingredients on this page"
+  },
+  "occurrences": {
+    "message": "$COUNT$ highlight(s)",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "pauseSite": {
+    "message": "Pause on"
+  },
+  "modeLabel": {
+    "message": "Scan:"
+  },
+  "modeIngredients": {
+    "message": "Ingredient lists only"
+  },
+  "modePage": {
+    "message": "Whole visible page"
+  },
+  "rescan": {
+    "message": "Rescan page"
+  },
+  "unavailable": {
+    "message": "Not available on this page. Reload the tab, or check that the extension has access to this site."
+  },
+  "pausedHere": {
+    "message": "Paused on this site (allowlisted)."
+  },
+  "disabled": {
+    "message": "Checker is switched off."
+  },
+  "noneIngredients": {
+    "message": "No flagged ingredients found in detected ingredient lists. Try “Whole visible page”."
+  },
+  "none": {
+    "message": "No flagged ingredients found."
+  },
+  "clickToScroll": {
+    "message": "Click to scroll to the next occurrence"
+  },
+  "allowlistTitle": {
+    "message": "Allowlisted sites"
+  },
+  "allowlistHelp": {
+    "message": "The checker does not run on these sites."
+  },
+  "allowlistEmpty": {
+    "message": "No sites allowlisted."
+  },
+  "remove": {
+    "message": "Remove"
+  },
+  "disclaimer": {
+    "message": "Descriptions are general, factual information about what each ingredient is. They are not health or medical advice."
+  }
+}
